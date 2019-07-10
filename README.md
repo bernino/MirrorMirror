@@ -7,6 +7,8 @@ You'll need exiv2 for Python, on a Mac:
     - brew install exiv2
     - pip3 install py3exiv2==0.7.1
 
+... and eventually your own MSFT Cognition account ;-)
+
 # USAGE
     mirrormirror.py
 
