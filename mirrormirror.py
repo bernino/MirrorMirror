@@ -7,7 +7,7 @@ Usage:
     This script will evolve into a "find similar faces" service.
 
 Output:
-    - A show().image with rectangle around face and meta data.
+    - A image.show() with rectangle around face and meta data.
     - Meta data in json on stdout.
 
 
