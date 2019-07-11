@@ -9,20 +9,23 @@ You'll need exiv2 for Python, on a Mac:
 
 ... and eventually your own MSFT Cognition account ;-)
 
-# USAGE
-    mirrormirror.py
+# USAGE:
+    mirrormirror.py folder/
 
-    Change the "img" variable to a photo of your choice.
+    Change the "folder" variable to a folder with your photos.
+    The script will iterate through all photos.
+
+# FUTURE:
     This script will evolve into a "find similar faces" service.
 
-# OUTPUT
+# OUTPUT:
     - A image.show() with rectangle around face and meta data.
     - Meta data in json on stdout.
 
-# TODO
-    - stdin folder argument, loop through all photos there
+# TODO:
+    - DONE ~~stdin folder argument, loop through all photos there~~
     - implement find similar faces
     - make it a web app
-    - probably change to matplotlib for jpg output of show()
-    - define all functionality as functions and call these
+    - change to matplotlib for jpg output of show()
+    - DONE ~~define all functionality as functions and call these~~
     - preserve all originial exif data and write to out.jpg
